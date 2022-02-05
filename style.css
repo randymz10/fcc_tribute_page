@@ -5,3 +5,23 @@
     margin: 0px;
     padding: 0px;
 }
+
+/*Prueba*/
+body{
+    background-color: red;
+}
+
+/*CABECERA*/
+
+.cabecera{
+    background-color: blue;
+    display: block;
+    width: 100%;
+}
+
+.cabecera_titulo{
+    display: flex;
+    width: 50%;
+    background-color: blueviolet;
+    float: left;
+}
