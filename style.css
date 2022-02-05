@@ -6,22 +6,11 @@
     padding: 0px;
 }
 
-/*Prueba*/
-body{
-    background-color: red;
+/*CONTENEDOR*/
+.contenedor{
+    width: 100%;
+    margin: 0 auto;   
 }
 
 /*CABECERA*/
 
-.cabecera{
-    background-color: blue;
-    display: block;
-    width: 100%;
-}
-
-.cabecera_titulo{
-    display: flex;
-    width: 50%;
-    background-color: blueviolet;
-    float: left;
-}
