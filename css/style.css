@@ -1,4 +1,4 @@
-    /*Estilos generales*/
+    /*General Styles*/
 
 *{
     box-sizing: border-box;
@@ -6,15 +6,35 @@
     padding: 0px;
 }
 
-/*CONTENEDOR*/
-.contenedor{
-    width: 100%;
-    margin: 0 auto;   
+body{
+    background-color: #191919;
+    color: #ECDBBA;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*CABECERA*/
-.cabecera{
-    background-color: aqua;
+.wrap{
+    width: 80%;
+    margin: 0px auto;
+}
+
+/*Header*/
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+#header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8em;
+    color: #D72323;
+}
+
+#header h6{
+    font-size: 14px;
+    margin-top: -2em;
 }
 
 

@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Styles-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">-->
 
-    <!--Estilos-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet"> 
 
     <!--Favicon-->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <!--Titulo-->
-    <title>Stan Lee Tribue Page</title>
-</head>
+    <!--Title-->
+    <title>Stan Lee Tribute Page</title>
+  </head>
 
-<body>
-
-    <!--Cabecera -->
-    <header id="header" class="container-fluid bg-dark text-white">
-        <div class="row">
-            <!--Titulo-->
-            <div class="col d-flex justify-content-center">
-                <h1 class="d-block">Stan Lee</h1>
-                <p class="d-block">[18/12/1922-12/11/2018]</p>
-            </div>
-            <!--Imagen junto al titulo-->
-            <div class="col">
-                <figure class="imagen">
-                    <img src="img/stan.png" alt="Stan Lee">
-                    <figcaption>"Un gran poder conlleva una gran responsabilidad" </figcaption>
-                </figure>
-            </div>
+  <body>
+    <main id="main" class="wrap">
+      <!--1. Header-->
+      <header id="header">
+        <!--1.1 Title-->
+        <div class="title">
+          <h1 id="title">Stan Lee</h1>
+          <h6>[18/12/1922 - 12/11/2018]</h6>
         </div>
-    </header>
-    <!--Fin  de la Cabecera-->
-
-</body>
-
+        <!--1.2 Image-->
+        <div>
+          <figure id="img-div" class="imagen">
+            <img id="image" src="img/stan.png" alt="Stan Lee" />
+            <figcaption id="img-caption">
+              "Un gran poder conlleva una gran responsabilidad"
+            </figcaption>
+          </figure>
+        </div>
+      </header>
+      <!--Fin  de la Cabecera-->
+    </main>
+  </body>
 </html>
