@@ -1,8 +1,25 @@
 # Stan Lee Tribute Page
 Pagina de tributo a Stan Lee creador de varios superhéroes de comics famosos para practicar conceptos básicos de HTML y CSS
 
-## Sumary
+---
 
-1.  Header
-1.1 Title
-1.2 Image
+## Sreenshot
+
+
+## Content
+
+1. Header
+2. Title
+3. Image
+4. Information
+5. footer
+
+---
+## Build in
+
+- HTML5
+- CSS3
+
+---
+## Author
+[@randymz10](https://github.com/randymz10)
