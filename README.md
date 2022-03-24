@@ -5,6 +5,7 @@ Tribute page to Stan Lee creator of several famous comic superheroes to practice
 
 ## Sreenshot
 
+![](https://github.com/randymz10/fcc_tribute_page/blob/master/img/stan_lee_sc.jpg)
 
 ## Content
 
