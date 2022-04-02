@@ -84,7 +84,6 @@ body{
 
 #tribute-info{
     background-color: #D72323;
-
 }
 
 #tribute-info h2{
@@ -97,9 +96,10 @@ body{
 #tribute-info p{
     display: block;
     margin: 20px;
+    text-align: justify;
 }
 
-#tribute-info .more-info{
+.more-info, #tribute-info .more-info p{
     text-align: center;
 }
 
@@ -178,13 +178,13 @@ body{
 
 @media (max-width: 705px){
     #header .wrap{
-        flex-direction: column;
+       /* flex-direction: column;
         width: 90%;
-        justify-content: space-evenly;
+        justify-content: space-evenly;*/
     }
 
     #header h1{
-        font-size: 7em;
+        font-size: 5em;
     }
 
     #header .title{
@@ -192,10 +192,97 @@ body{
         margin: 0px auto
     }
 
-    #header #img-div{
+    #header .title a{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    #header img{
+        max-width: 10em;
+    }
+
+    #header #img-caption{
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    #tribute-info .wrap{
+        width: 90%;
+    }
+
+   /* #header #img-div{
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
+    }*/
+}
+@media(max-width: 587px){
+    #header h1{
+        font-size: 4em;
+    }
+
+    #header h6{
+        font-size: 10px;
+        margin-top: -2em;
+        margin-left: 0em;
+    }
+
+    #tribute-info h2{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media(max-width: 470px){
+    #header .wrap{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #header .title{
+        width: 90%;
+    }
+
+    #header h1{
+        font-size: 7em;
+    }
+
+    #header h6{
+        font-size: 1em;
+    }
+
+    #header .title a{
+        padding: 20px;
+    }
+
+    #header #img-div img{
+        display: none;
+    }
+
+    #img-div{
+        width: 100% !important;
+    }
+    #img-caption {
+        display: block;
+        font-size: 1.3em !important;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 345px)  {
+    #header h1{
+        font-size: 5em;
+    }
+
+    #header h6{
+        font-size: 0.7em;
+    }
+
+    #img-caption {
+        display: block;
+        font-size: 30px !important;
+        margin: 0px;
     }
 }
