@@ -15,7 +15,7 @@ Tribute page to Stan Lee creator of several famous comic superheroes to practice
 2. Title
 3. Image
 4. Information
-5. footer
+5. Footer
 
 ---
 ## Build in
